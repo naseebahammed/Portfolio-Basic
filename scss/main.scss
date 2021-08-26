@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: $bg;
+  color: $text;
+  font-family: "open_sans_Regular";
+}
+a {
+  text-decoration: none;
+  color: $text;
+}
+ul,
+li {
+  list-style: none;
+}
+
+.full-height {
+  min-height: 100vh;
+  width: 90%;
+  margin: 0 auto;
+}
